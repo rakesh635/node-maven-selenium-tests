@@ -3,6 +3,7 @@ package works.buddy.test;
 import org.junit.Before;
 import org.junit.After;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
