@@ -28,15 +28,14 @@ public class SeleniumTest {
     @Test
     public void test1() throws Exception {
     	driver.get("http://myapp.com");
-        assertEquals("Continuous Integration, Deployment & Delivery with Buddy", driver.getTitle());
+        assertEquals("Hello Buddy!", driver.getTitle());
     }
 
 	//Error
     @Test
-    @Ignore
     public void test2() throws Exception {
     	driver.get("http://myapp.com");
-        assertEquals("Buddy Works", driver.getTitle());
+        assertEquals("Hello Rafal!", driver.getTitle());
     }
 
     @After
