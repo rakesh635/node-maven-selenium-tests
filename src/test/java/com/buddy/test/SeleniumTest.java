@@ -32,7 +32,7 @@ public class SeleniumTest {
     }
 
 	//Error
-	//@Ignore
+	@Ignore
     @Test
     public void test2() throws Exception {
     	driver.get("http://myapp.com");
