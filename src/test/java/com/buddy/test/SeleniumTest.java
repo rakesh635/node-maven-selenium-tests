@@ -27,7 +27,7 @@ public class SeleniumTest {
 
     @Test
     public void test1() throws Exception {
-    	driver.get("https://buddy.works");
+    	driver.get("http://myapp.com");
         assertEquals("Continuous Integration, Deployment & Delivery with Buddy", driver.getTitle());
     }
 
@@ -35,7 +35,7 @@ public class SeleniumTest {
     @Test
     @Ignore
     public void test2() throws Exception {
-    	driver.get("https://buddy.works");
+    	driver.get("http://myapp.com");
         assertEquals("Buddy Works", driver.getTitle());
     }
 
