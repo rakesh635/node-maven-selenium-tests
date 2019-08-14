@@ -12,7 +12,9 @@ http.createServer(function (req, res) {
 	</head>
 	
 	<body>
-		Hello Buddy!
+		<div>
+			Hello Buddy!
+		</div>
 	</body>
 	</html>
   `);
